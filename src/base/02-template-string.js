@@ -1,3 +1,3 @@
-export function getSaludo(nombre) {
+export function getSaludo(nombre = 'Juan') {
     return 'Hola '+nombre;
 }
